@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="66b645bf0ed5482ea95c791dcfc82144" Name="Diagram1">
+        <EntityTypeShape EntityType="TaskManagerDatabaseModel.Assigned" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskManagerDatabaseModel.Comment" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskManagerDatabaseModel.Project" Width="1.5" PointX="1.5" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskManagerDatabaseModel.Task" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskManagerDatabaseModel.User" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskManagerDatabaseModel.Work" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <AssociationConnector Association="TaskManagerDatabaseModel.FK_task_assigned" ManuallyRouted="false" />
+        <AssociationConnector Association="TaskManagerDatabaseModel.FK_user_assigned" ManuallyRouted="false" />
+        <AssociationConnector Association="TaskManagerDatabaseModel.FK_task_comment" ManuallyRouted="false" />
+        <AssociationConnector Association="TaskManagerDatabaseModel.FK_user_comment" ManuallyRouted="false" />
+        <AssociationConnector Association="TaskManagerDatabaseModel.FK_project_task" ManuallyRouted="false" />
+        <AssociationConnector Association="TaskManagerDatabaseModel.FK_project_works" ManuallyRouted="false" />
+        <AssociationConnector Association="TaskManagerDatabaseModel.FK_user_works" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
